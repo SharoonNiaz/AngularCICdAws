@@ -4,6 +4,7 @@ env:
   variables:
     CACHE_CONTROL: "86400"
     S3_BUCKET: "{{s3_bucket_url}}"
+    BUILD_FOLDER: "dist"
 phases:
   install:
     runtime-versions:
@@ -16,7 +17,4 @@ build:
   commands: 
     - echo Build started
     - ng build
-artifacts:
-  files:
-    - '**/*'
-  base-directory: 'dist/angulr-ci-cd-aws'
+
