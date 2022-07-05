@@ -19,6 +19,6 @@ build:
     - ng build
 artifacts:
   files:
-    - './**/*'
-  base-directory: public
+    - '**/*'
+  base-directory: 'dist/agular-ci-cd-aws*'
 
