@@ -19,6 +19,6 @@ build:
     - ng build
 artifacts:
   files:
-    - '**/*'
-  base-directory: 'dist'
+    - './**/*'
+  base-directory: public
 
