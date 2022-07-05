@@ -17,9 +17,9 @@ phases:
 build:
   commands: 
     - echo Build started
-    - ng build 
+    - ng build --${BUILD_ENV}
 artifacts:
   files:
     - "**/*"
-  discard-paths: no
-  base-directory: dist/angulr-ci-cd-aws/
+  discard-paths: yes
+  base-directory: 'dist*'
