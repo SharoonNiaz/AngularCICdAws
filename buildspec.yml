@@ -8,7 +8,7 @@ env:
 phases:
   install:
     runtime-versions:
-      nodejs: 14
+      nodejs: 16
     commands: 
       - echo Installing source NPM dependencies...
       - npm install 
@@ -19,7 +19,6 @@ build:
     - ng build
 artifacts:
   files:
-    - '**/*'
-  base-directory: 'dist*'
+  base-directory: 'dist/angulr-ci-cd-aws'
   discard-paths: yes
 
