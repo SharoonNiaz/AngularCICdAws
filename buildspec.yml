@@ -20,6 +20,6 @@ build:
     - ng build 
 artifacts:
   files:
-    - '**/*'
-  base-directory: 'dist/angulr-ci-cd-aws*'
-  discard-paths: yes
+    - "**/*"
+  discard-paths: no
+  base-directory: dist/angulr-ci-cd-aws
