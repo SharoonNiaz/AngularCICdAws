@@ -18,5 +18,5 @@ build:
     - ng build
 artifacts:
   files:
-    - "**/*"
+    - '**/*'
   base-directory: 'dist'
